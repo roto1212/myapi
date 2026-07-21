@@ -1,0 +1,23 @@
+# Claude Code
+.claude
+
+# 가상환경 (vendor/ 에 해당 — 절대 커밋 금지)
+.venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 환경변수 (SECRET_KEY, DB 접속정보 — 절대 커밋 금지)
+.env
+
+# SQLite DB 파일 (데이터는 코드가 아님)
+*.db
+
+# 에디터
+.idea/
+.vscode/
+
+# 로그
+logs/
+*.log
